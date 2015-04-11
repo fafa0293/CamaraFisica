@@ -82,8 +82,10 @@ namespace CameraPrueba
 		}
 		
 		void guardarimagen(){
+			HttpConnector.SendImage(pictureBox2.Image);
 			String nombre = ruta+ "\\"+DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss")+".JPG";
 			pictureBox2.Image.Save(nombre);
+			
 		}
 		void MainFormFormClosing(object sender, FormClosingEventArgs e)
 		{

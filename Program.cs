@@ -9,6 +9,7 @@
 using System;
 using System.Windows.Forms;
 
+
 namespace CameraPrueba
 {
 	/// <summary>
@@ -25,7 +26,12 @@ namespace CameraPrueba
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.Run(new MainForm());
+		
 		}
+		
+		
+		
+	
 		
 	}
 }
